@@ -1,0 +1,8 @@
+test:
+  override:
+    - grunt test
+deployment:
+  master:
+    branch: master
+    heroku:
+      appname: maldrotic
