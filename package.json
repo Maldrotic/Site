@@ -1,7 +1,7 @@
 {
   "name": "home-site",
   "version": "1.0.0",
-  "description": "Home site",
+  "description": "maldrotic",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
