@@ -1,6 +1,6 @@
 test:
   override:
-    - grunt test
+    - gulp test
 deployment:
   master:
     branch: master
