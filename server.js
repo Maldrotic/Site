@@ -25,6 +25,7 @@ app.use('/dist', express.static('dist'));
 app.use('/bower_components', express.static('bower_components'));
 
 app.use('/', require('./routes/index'));
+app.use('/pong', require('./routes/pong'));
 
 http.listen(port, function() {
   console.log('Server running on port ' + port);

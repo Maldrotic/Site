@@ -12,4 +12,13 @@ describe('Routes', function() {
         .end(done);
     });
   });
+
+  describe('GET /pong', function() {
+    it('should render', function(done) {
+      request(app)
+        .get('/pong')
+        .expect(200)
+        .end(done);
+    });
+  });
 });
